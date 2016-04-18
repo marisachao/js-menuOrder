@@ -13,8 +13,6 @@ question("do you want a hamburger or cheeseburger?")
 question("french fries or animal fries?");
 question("chocolate, strawberry, or vanilla milkshake?");
 
-// call the QUESTION function with the order options
-question();
 
 // output their order
 document.write("<p>You ordered: " + order + "<p>");
