@@ -6,7 +6,7 @@ var order = '';
 
 function question(questionText) {
   var answer = prompt(questionText);
-  order = order + answer
+  order = order + " " + answer
 }
 
 question("do you want a hamburger or cheeseburger?")
