@@ -18,7 +18,7 @@ var myQuestion = [
 var i =0;
 var order = '';
 while (i<myQuestion.length) {
-  var answerInput = prompt(myQuestions[i]);
+  var answerInput = prompt(myQuestion[i]);
   order = order + " " + answerInput;
   i++;
 }
